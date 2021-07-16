@@ -18,5 +18,4 @@ resource "azurerm_app_service" "test" {
   app_settings = {
     "WEBSITE_RUN_FROM_PACKAGE" = 0
   }
-  tags = "${var.tags}"
 }

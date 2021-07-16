@@ -1,0 +1,7 @@
+# For security do not track these files or push to a public repo
+
+.terraform
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
